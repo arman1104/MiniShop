@@ -58,7 +58,7 @@ const ProductCard = ({ product }) => {
       <img
         src={product.images[0]}
         alt={product.title}
-        className="w-28 h-28 object-contain mb-3 mt-3"
+        className="w-36 h-28 object-contain mb-3 mt-3"
       />
       <p className="text-gray-600 text-sm text-center line-clamp-2 ">
         {product.title}
