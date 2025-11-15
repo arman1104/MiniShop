@@ -70,7 +70,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="w-full bg-gray-200 sticky top-0 z-50 shadow-md">
+    <header className="w-full bg-gray-50 sticky top-0 z-50 shadow-sm">
       <nav className="max-w-7xl mx-auto flex items-center justify-between py-4 px-4">
         {/* Logo / Brand */}
         <h1 className="text-2xl font-bold text-gray-800 tracking-wide">

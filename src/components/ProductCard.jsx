@@ -51,14 +51,14 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div className="bg-white w-64 shadow-md border border-gray-200 rounded-lg p-4 flex flex-col items-center hover:shadow-xl hover:scale-105 transition-transform duration-300">
+    <div className="bg-white w-full sm:w-64 shadow-md border border-gray-200 rounded-lg p-4 flex flex-col items-center hover:shadow-xl hover:scale-105 transition-transform duration-300">
       <h2 className="text-lg font-semibold text-gray-800 text-center line-clamp-1">
         {product.brand}
       </h2>
       <img
         src={product.images[0]}
         alt={product.title}
-        className="w-36 h-28 object-contain mb-3 mt-3"
+        className="w-56 h-36 sm:w-36 sm:h-28 object-contain mb-3 mt-3"
       />
       <p className="text-gray-600 text-sm text-center line-clamp-2 ">
         {product.title}
