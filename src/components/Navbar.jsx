@@ -97,7 +97,7 @@ const Navbar = () => {
           {/* Refresh Button */}
           <button
             onClick={handleRefresh}
-            className="p-2 rounded-lg hover:bg-blue-200 transition-colors hover:rotate-180 transition-transform duration-700"
+            className="p-2 rounded-lg hover:bg-blue-200 hover:rotate-180 transition-transform duration-700"
           >
             <RefreshCw className="w-6 h-6" />
           </button>

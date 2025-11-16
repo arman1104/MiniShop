@@ -66,9 +66,7 @@ const ProductCard = ({ product }) => {
       {/* <p className="text-gray-600 text-sm text-center line-clamp-2 ">
         {product.description}
       </p> */}
-      <p className="mt-2 text-md font-semi-bold text-green-600  ">
-        ${product.price}
-      </p>
+      <p className="mt-2 text-md font-semi-bold text-black">${product.price}</p>
 
       <button
         onClick={handleAddToCart}
