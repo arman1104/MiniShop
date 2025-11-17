@@ -81,7 +81,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 p-8">
-      <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
+      <h1 className="text-3xl font-bold sm:ml-16 xl:ml-8 mb-8 text-gray-800">
         🛍️ Product Gallery
       </h1>
 
